@@ -12,6 +12,7 @@
 		13C67ADD1F6E06E60096385B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C67ADB1F6E06E60096385B /* Main.storyboard */; };
 		13C67ADF1F6E06E60096385B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C67ADE1F6E06E60096385B /* Assets.xcassets */; };
 		13C67AE21F6E06E60096385B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C67AE01F6E06E60096385B /* LaunchScreen.storyboard */; };
+		13C67AEA1F6E07430096385B /* SineWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C67AE91F6E07430096385B /* SineWaveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		13C67ADE1F6E06E60096385B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13C67AE11F6E06E60096385B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13C67AE31F6E06E60096385B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C67AE91F6E07430096385B /* SineWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineWaveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				13C67ADE1F6E06E60096385B /* Assets.xcassets */,
 				13C67AE01F6E06E60096385B /* LaunchScreen.storyboard */,
 				13C67AE31F6E06E60096385B /* Info.plist */,
+				13C67AE91F6E07430096385B /* SineWaveView.swift */,
 			);
 			path = SineAnimationView;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C67AEA1F6E07430096385B /* SineWaveView.swift in Sources */,
 				13C67ADA1F6E06E60096385B /* ViewController.swift in Sources */,
 				13C67AD81F6E06E60096385B /* AppDelegate.swift in Sources */,
 			);

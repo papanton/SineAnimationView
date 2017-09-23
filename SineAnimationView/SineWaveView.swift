@@ -35,6 +35,7 @@ class SineWaveView: UIView {
       setNeedsDisplay()
     }
   }
+
   var phase: CGFloat = 0.0
 
   override func draw(_ rect: CGRect) {

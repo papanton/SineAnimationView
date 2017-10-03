@@ -39,7 +39,7 @@ class SineWaveView: UIView {
   var phase: CGFloat = 0.0
 
   override func draw(_ rect: CGRect) {
-
+    super.draw(rect)
     let context = UIGraphicsGetCurrentContext()
     context?.setAllowsAntialiasing(true)
 
